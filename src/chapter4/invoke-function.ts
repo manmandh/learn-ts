@@ -1,9 +1,11 @@
-function add(a: number, b: number) {
-  return a + b
-}
-console.log(add(1,2));
+{
+  function addition(a: number, b: number) {
+    return a + b
+  }
+  console.log(addition(1,2));
 
-let greet3 = (name: string) => {
-  return 'hello ' + name
+  let greet3 = (name: string) => {
+    return 'hello ' + name
+  }
+  console.log(greet3('Marry'));
 }
-console.log(greet3('Marry'));
