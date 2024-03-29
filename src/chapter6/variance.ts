@@ -52,5 +52,4 @@ deleteUser(existingUser)
     c.caw()
     return new Bird
   }
-
 }
